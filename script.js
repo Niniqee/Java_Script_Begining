@@ -13,9 +13,9 @@ const mode = {
 }
 
 function imageMode(color) {
-  image1.src = `img/undraw_proud_coder_${color}.svg`;
-  image2.src = `img/undraw_feeling_proud_${color}.svg`;
-  image3.src = `img/undraw_conceptual_idea_${color}.svg`;
+  image1.src = `img/undraw_tutorial_video_${color}.svg`;
+  image2.src = `img/undraw_people_${color}.svg`;
+  image3.src = `img/undraw_certification_${color}.svg`;
 }
 //Dark or light Images
 

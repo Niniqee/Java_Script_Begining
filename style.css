@@ -12,7 +12,7 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: rgb(150, 65, 255);
+  --primary-color: #6c63ff;
   --primary-variant: #6c63ff;
   --secondary-color: #03dac5;
   --on-primary: #000;
@@ -83,6 +83,12 @@ a:focus {
 /* Home Section */
 .title-group {
   text-align: center;
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 10px 40px;
+  width: auto;
+  box-shadow: var(--box-shadow);
+  background: rgb(255 255 255 / 30%);
 }
 
 /* About Section */
@@ -169,6 +175,7 @@ button:hover:not(.outline) {
 p {
   margin: 0;
   line-height: 25px;
+  text-align: center;
 }
 
 /* Contact Section */
